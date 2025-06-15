@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Home {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+.navdiv a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navdiv {
+    margin-left: 150px;
+}
+
+#Home h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 180px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#Home h6 {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.homebtn {
+    height: 50px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 21px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgb(177, 177, 177);
+    border-radius: 30px;
+}
+
+#About {
+    width: 100%;
+    text-align: center;
+}
+
+#About h1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.a2 {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.abtbtn {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    font-size: 21px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+#Skills {
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+}
+
+#Skills h1 {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s1, .s2, .s3, .s4 {
+    width: 50%;
+    text-align: center;
+}
+
+.s1 h4, .s1 p {
+    color: orangered;
+}
+
+.s2 h4, .s2 p {
+    color: aqua;
+}
+
+.s3 h4, .s3 p {
+    color: greenyellow;
+}
+
+.s4 h4, .s4 p {
+    color: yellow;
+}
+
+#Tools {
+    width: 100%;
+    text-align: center;
+}
+
+#Tools h1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.tool {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tool img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.t1, .t2, .t3, .t4 {
+    margin: 85px;
+}
+
+.tool h4 {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+#Education {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.education {
+    width: 100%;
+    margin-left: 0.1px;
+    margin-top: 50px;
+}
+
+#Education h1 {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.education h5 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.education button {
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.card1, .card2, .card3 {
+    margin-bottom: 90px;
+}
+
+#Projects {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Projects h1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.project h5 {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.project button {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    width: 100%;
+    margin-left: 0.1px;
+    padding-bottom: 90px;
+}
+
+.project h6 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#Certificates {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+#Certificates h1 {
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.certificate {
+    width: 100%;
+    margin-left: 0.1px;
+    padding-bottom: 90px;
+}
+
+.certificate h5 {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.certificate button {
+    height: 50px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 21px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Languages {
+    width: 100%;
+    text-align: center;
+}
+
+#Languages h1 {
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.language {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l1, .l2, .l3 {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.l1 {
+    color: green;
+}
+
+.l2 {
+    color: purple;
+}
+
+.l3 {
+    color: orangered;
+}
+
+#Interest {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+#Interest h1 {
+    font-weight: bold;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.interest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.interest img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.interest h5 {
+    color: white;
+    padding-top: 20px;
+}
+
+#Achievement {
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+#Achievement h1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+#Achievement h6 {
+    color: blue;
+    font-size: 20px;
+}
+
+#Contact {
+    height: 65vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#Contact h1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact img {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.c1, .c2, .c3 {
+    padding: 20px;
+}
+
+#Footer{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#Footer h5 {
+    font-weight: bold;
+}
+
+.resumeimg, .degreeimg, .diploma2img,
+.diploma1img, .megaprojectimg, .touchimg,
+.arcaneimg {
+    width: 100%;
+}
+
+.aboutme {
+    height: 70vh;
+    width: 50%;
+    text-align: center;
+}
+
+#intro {
+    width: 100%;
+    justify-items: center;
+    padding-top: 90px;
+}
+
+.aboutme h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: blue;
+}
+
+.aboutme p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
