@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.container
+{
+    background: linear-gradient(130deg, aqua, purple);
+    width: 380px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid blue;
+}
+
+.searchbox
+{
+    display: flex;
+    margin: 20px 60px;
+    gap: 20px;
+    align-items: center;
+}
+.searchbox input
+{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    outline: none;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.searchbox i 
+{
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.body img 
+{
+   width: 150px;
+}
+
+.body h1 
+{
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.body h3 
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.details
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.col i 
+{
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+.col h5 
+{
+    font-size: 20px;
+    color: white;
+   
+}
+.col p 
+{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.details
+{
+    display: none;
+}
+.body
+{
+    display: none;
+}
